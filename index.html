@@ -7,10 +7,10 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="/">WebStudio</a>
       <nav>
+        <a class="logo" href="index.html">WebStudio</a>
         <ul>
-          <li><a href="/studio">Студия</a></li>
+          <li><a href="index.html">Студия</a></li>
           <li><a href="/portfolio">Портфолио</a></li>
           <li><a href="/contacts">Контакты</a></li>
         </ul>
@@ -25,8 +25,11 @@
         <h1>Эффективные решения для вашего бизнеса</h1>
         <button type="button">Заказать услугу</button>
       </section>
-      <section>
-        <ul id="about">
+      <section class="about-us">
+        <ul class="about">
+          <!-- Щодо заголовків, я завжди їх груповав по розміру тексту, а не порядку, щоб було
+            легше їх редагувати у CSS.
+          В мене застовані всі заголовки від h1 до h4, h3 застовані у картках команди -->
           <li>
             <h4>Внимание к деталям</h4>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции</p>
@@ -49,11 +52,10 @@
           </li>
         </ul>
       </section>
-      <section id="what-we-do">
+      <section class="what-we-do">
         <h2>Чем мы занимаемся</h2>
-        <ul id="what-we-do-images">
+        <ul class="what-we-do-images">
           <li>
-            <a href="/keyboard">
               <img
                 src="images/programmer-typing.jpg"
                 alt="Программист печатает на компьютере"
@@ -62,7 +64,6 @@
             </a>
           </li>
           <li>
-            <a href="/keyboard">
               <img
                 src="images/phone-design.jpg"
                 alt="Программист выбирает дизайн телефона"
@@ -71,7 +72,6 @@
             </a>
           </li>
           <li>
-            <a href="/keyboard">
               <img
                 src="images/color-pallette.jpg"
                 alt="Дизайнер использует палитру цветов"
@@ -81,7 +81,7 @@
           </li>
         </ul>
       </section>
-      <section id="our-team">
+      <section class="our-team">
         <h2>Наша команда</h2>
         <ul>
           <li>
@@ -108,11 +108,11 @@
       </section>
     </main>
     <footer>
-      <a class="logo" href="/">WebStudio</a>
+      <a class="logo" href="index.html">WebStudio</a>
       <address>
         <ul>
           <li>
-            <p>г.Киев, пр-т Леси Украинки, 26</p>
+            <a href="">г.Киев, пр-т Леси Украинки, 26</a>
           </li>
           <li>
             <a href="mailto:info@example.com">info@example.com</a>
